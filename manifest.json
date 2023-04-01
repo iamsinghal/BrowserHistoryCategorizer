@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "My History Tracker",
+    "description": "Tracks browsing history and categorizes it",
+    "version": "1.0",
+    "icons": {
+    },
+    "permissions": [
+      "history",
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
